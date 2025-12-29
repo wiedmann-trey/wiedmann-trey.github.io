@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Site.Title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>{{ .Site.Title }}</h1>
+        <p>{{ .Site.Params.description }}</p>
+        <div class="header-footer">
+             <a href="https://github.com/wiedmann-trey">GitHub</a> | <a href="mailto:treywiedmann@gmail.com">Contact</a>
+        </div>
+    </header>
+    
+    <main>
+        <div class="projects-list">
+            {{ range (where .Site.RegularPages "Section" "projects").ByDate.Reverse }}
+            <article class="project-item">
+                <div class="project-info">
+                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                    <p class="project-description">{{ .Params.description }}</p>
+                    <div class="tags">
+                        {{ range .Params.tags }}
+                        <span class="tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="project-preview">
+                    {{ if .Params.preview }}
+                    <a href="{{ .Permalink }}">
+                        <img src="{{ .Params.preview }}" alt="{{ .Title }} preview">
+                    </a>
+                    {{ end }}
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="back-link">← All Projects</a>
+        </nav>
+    </header>
+    
+    <main class="project-page">
+        <article>
+            <h1>{{ .Title }}</h1>
+            
+            <div class="tags">
+                {{ range .Params.tags }}
+                <span class="tag">{{ . }}</span>
+                {{ end }}
+            </div>
+            
+            {{ if .Params.hero }}
+            <div class="hero-media">
+                {{ if .Params.heroVideo }}
+                <video controls autoplay muted loop playsinline preload="metadata">
+                    <source src="{{ .Params.hero }}" type="video/mp4">
+                </video>
+                {{ else }}
+                <img src="{{ .Params.hero }}" alt="{{ .Title }}">
+                {{ end }}
+            </div>
+            {{ end }}
+            
+            <div class="project-content">
+                {{ .Content }}
+            </div>
+            
+            {{ if .Params.github }}
+            <div class="project-links">
+                <a href="{{ .Params.github }}" class="btn">View on GitHub</a>
+            </div>
+            {{ end }}
+            
+            {{ if .Params.files }}
+            <div class="project-links">
+                <a href="{{ .Params.files }}" class="btn">Download Files</a>
+            </div>
+            {{ end }}
+        </article>
+    </main>
+    
+    <footer>
+        <p><a href="/">← Back to all projects</a></p>
+    </footer>
+</body>
+</html>
