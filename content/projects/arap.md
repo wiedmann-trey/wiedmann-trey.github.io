@@ -12,11 +12,11 @@ The paper [As-Rigid-As-Possible Surface Modeling](https://igl.ethz.ch/projects/A
 
 This project was an implementation of their proposed algorithm. The algorithm involves setting up and computing a singular value decomposition, as well as setting up and solving a large linear system with a sparse solver. For efficient solving during user interaction, the system is pre-factored, and parallelism with OpenMP is leveraged. The C++ and OpenGL app runs interactively in realtime for any reasonably sized mesh.
 
-<video controls muted preload="none">
+<video controls muted preload="metadata">
   <source src="/images/arap/teapot.mp4" type="video/mp4">
 </video>
 
-<video controls muted preload="none">
+<video controls muted preload="metadata">
   <source src="/images/arap/bean.mp4" type="video/mp4">
 </video>
 

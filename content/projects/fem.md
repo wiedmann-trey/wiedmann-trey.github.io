@@ -11,13 +11,13 @@ heroVideo: true
 This project implements realtime soft body physics simulation of tetrahedral meshes using the finite element method. 
 
 
-<video controls muted preload="none">
+<video controls muted preload="metadata">
   <source src="/images/fem/sphere_collision.mp4" type="video/mp4">
 </video>
 
 Penalty forces are used to resolve collisions, and deformable meshes can collide with static meshes and other deformable meshes. Explicit integration with the midpoint method is used to update the simulation at each timestep. Any number of meshes is supported, and initial configuration and simulation parameters are configurable from .ini files. 
 
-<video controls muted preload="none">
+<video controls muted preload="metadata">
   <source src="/images/fem/static_collider.mp4" type="video/mp4">
 </video>
 

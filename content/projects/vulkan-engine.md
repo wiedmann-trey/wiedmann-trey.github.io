@@ -21,7 +21,7 @@ This project is a realtime graphics engine implemented in C++ and Vulkan. It is 
 - Frame statistics
 
 
-<video controls muted preload="none">
+<video controls muted preload="metadata">
   <source src="/images/vulkan/chess.mp4" type="video/mp4">
 </video>
 

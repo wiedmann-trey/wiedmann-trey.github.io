@@ -21,15 +21,15 @@ Experiments were run on AMD's high-performance computing fund cloud. GPU profili
 
 ### Gallery
 
-<video controls muted preload="none">
+<video controls muted preload="metadata">
   <source src="/images/poisson/torus.mp4" type="video/mp4">
 </video>
 
-<video controls muted preload="none">
+<video controls muted preload="metadata">
   <source src="/images/poisson/cosine.mp4" type="video/mp4">
 </video>
 
-<video controls muted preload="none">
+<video controls muted preload="metadata">
   <source src="/images/poisson/helix.mp4" type="video/mp4">
 </video>
 
