@@ -12,7 +12,8 @@ github: "https://github.com/wiedmann-trey/vulkan-engine"
 This project is a realtime graphics engine implemented in C++ and Vulkan. It is based on the tutorials from [vkguide](https:/vkguide.dev). 
 
 ### Features
-- GLTF loading and materials
+- GLTF scene loading 
+- GLTF Metallic-roughness materials with textures
 - Transparency
 - Mipmapped textures
 - Multisample antialiasing (MSAA)
@@ -20,9 +21,10 @@ This project is a realtime graphics engine implemented in C++ and Vulkan. It is 
 - Double-buffering/VSync
 - Frame statistics
 
-
 <video controls muted preload="metadata">
   <source src="/images/vulkan/chess.mp4" type="video/mp4">
 </video>
 
-Further extensions to this project are planned.
+![materials](/images/vulkan/materials.png)
+
+Further direction: cascade shadow maps, normal+occlusion textures, more lights (point lights, spot lights, image-based lighting), etc.
