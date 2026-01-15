@@ -35,6 +35,6 @@ Experiments were run on AMD's high-performance computing fund cloud. GPU profili
   <source src="/images/poisson/helix.mp4" type="video/mp4">
 </video>
 
-[Full report](https://github.com/wiedmann-trey/poisson-3d/blob/main/report.pdf)
 
-This project was completed as a final project for APMA2822B, Introduction to Parallel Computing on Heterogeneous Systems, at Brown University.
+This project was completed as a final project for APMA2822B, Introduction to Parallel Computing on Heterogeneous Systems, at Brown University. Read the [full report here](https://github.com/wiedmann-trey/poisson-3d/blob/main/report.pdf).
+
