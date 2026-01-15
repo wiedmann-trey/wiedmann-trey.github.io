@@ -14,6 +14,7 @@ This project is a realtime graphics engine implemented in C++ and Vulkan. It is 
 ### Features
 - GLTF scene loading 
 - GLTF Metallic-roughness materials with textures
+- Cascaded shadow maps
 - Transparency
 - Mipmapped textures
 - Multisample antialiasing (MSAA)
@@ -27,4 +28,4 @@ This project is a realtime graphics engine implemented in C++ and Vulkan. It is 
 
 ![materials](/images/vulkan/materials.png)
 
-Further direction: cascade shadow maps, normal+occlusion textures, more lights (point lights, spot lights, image-based lighting), etc.
+Further direction: normal+occlusion textures, more lights (point lights, spot lights, image-based lighting), etc.
