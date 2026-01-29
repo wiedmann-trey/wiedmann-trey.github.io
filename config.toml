@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Trevor Wiedmann'
 
 [params]
-description = 'Computer graphics + vision developer and researcher'
+description = 'Computer graphics + vision + art'
 
 [markup]
   [markup.goldmark]
