@@ -10,7 +10,7 @@ github: "https://github.com/evan-mick/2240-restir"
 ---
 
 In this project, we implement the paper [Spatiotemporal reservoir resampling for real-time ray tracing
-with dynamic direct lighting](https://research.nvidia.com/publication/2020-07_spatiotemporal-reservoir-resampling-real-time-ray-tracing-dynamic-direct), or ReSTIR direct illumination, on top of an existing OpenGL path tracer. ReSTIR enables the accurate rendering of scenes with many lights very low sample counts, which allows our path tracer to render in real time. It works through the resampled importance sampling (RIS) of candidate light samples and the reuse of samples from spatial and temporal neighbors.
+with dynamic direct lighting](https://research.nvidia.com/publication/2020-07_spatiotemporal-reservoir-resampling-real-time-ray-tracing-dynamic-direct), or ReSTIR direct illumination, on top of an existing OpenGL path tracer. ReSTIR enables the accurate rendering of scenes with many lights at very low sample counts, which allows our path tracer to render in real time. It works through the resampled importance sampling (RIS) of candidate light samples and the reuse of samples from spatial and temporal neighbors.
 
 ### Gallery
 
