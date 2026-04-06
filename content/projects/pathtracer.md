@@ -29,4 +29,4 @@ This project is a C++ renderer that achieves true global illumination with unbia
 ![cathedral image](/images/pathtracer/hdr_cathedral.png)
 ![cornell box image](/images/pathtracer/mirror.png)
 
-This project was completed for CSCI2240, Advanced Computer Graphics, at Brown University. Code is not public, but available at request.
+This project was completed for CSCI2240, Advanced Computer Graphics, at Brown University. Source code is not public.

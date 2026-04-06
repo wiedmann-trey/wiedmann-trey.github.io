@@ -24,5 +24,5 @@ Cow before and after simplification:
 Bunny before and after remeshing:
 ![bunny before after image](/images/mesh/bunnyremesh.png)
 
-This project was completed for CSCI2240, Advanced Computer Graphics, at Brown University. Code is not public, but available at request.
+This project was completed for CSCI2240, Advanced Computer Graphics, at Brown University. Source code is not public.
 

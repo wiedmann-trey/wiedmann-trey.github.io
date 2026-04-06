@@ -21,4 +21,4 @@ Penalty forces are used to resolve collisions, and deformable meshes can collide
   <source src="/images/fem/static_collider.mp4" type="video/mp4">
 </video>
 
-This project was completed for CSCI2240, Advanced Computer Graphics, at Brown University. Code is not public, but available at request.
+This project was completed for CSCI2240, Advanced Computer Graphics, at Brown University. Source code is not public.
