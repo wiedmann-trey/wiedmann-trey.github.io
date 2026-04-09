@@ -11,6 +11,10 @@ heroVideo: true
 
 This ongoing project is a custom C++ game engine. It also features some games created with the engine to demonstrate its capabilities.
 
+<video controls muted preload="metadata">
+  <source src="/images/3d-game-engine/bonfire.mp4" type="video/mp4">
+</video>
+
 ### Features
 - Custom ECS implementation for game logic
 - GJK+EPA collision detection for convex hulls
