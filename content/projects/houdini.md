@@ -9,7 +9,7 @@ hero: "/images/houdini/gel.mp4"
 heroVideo: true
 ---
 
-I've learning and using Houdini for various small projects, especially for its powerful simulation and procedural geometry tools.
+I've been learning and using Houdini for various small projects, especially for its powerful simulation and procedural geometry tools.
 
 ### Procedural rock climbing holds
 <video controls muted preload="metadata">
